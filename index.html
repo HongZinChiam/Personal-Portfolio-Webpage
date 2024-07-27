@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Webpage</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="https://kit.fontawesome.com/68a31259a3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <a class="nav-link" href="#welcome-section">Welcome</a>
+            <a class="nav-link" href="#projects">Projects</a>
+            <a class="nav-link" href="#contact">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <section id="welcome-section" class="welcome section">
+            <div>
+                <h1>Hey, I am Ren!</h1>
+                <p class="subtitle">I am a dedicated and enthusiastic student currently pursuing a Bachelor's degree in Computer Science. My passion for technology and problem-solving drives me towards a fulfilling career as a developer.</p>
+                <a href="#contact" class="contact-btn">Contact Me</a>
+            </div>
+            <figure>
+                <img class="profile-picture" src="./profile-picture.png" alt="profile-picture" />
+            </figure>
+        </section>
+
+        <section id="projects" class="projects section">
+            <h2>Projects</h2>
+            <p class="subtitle projects-subtitle">These are some of the projects that I have made.</p>
+            <div class="project-tiles">
+                <section class="project-tile">
+                    <a href="#" target="_blank">
+                        <img class="project-img" src="./survey-form.png" alt="survey-form" />
+                        <div class="project-wrapper">
+                            <h3>Survey Form</h3>
+                        </div>
+                    </a>
+                </section>
+
+                <section class="project-tile">
+                    <a href="#" target="_blank">
+                        <img class="project-img" src="./tribute-page.png" alt="tribute-page" />
+                        <div class="project-wrapper">
+                            <h3>Tribute Page</h3>
+                        </div>
+                    </a>
+                </section>
+
+                <section class="project-tile">
+                    <a href="#" target="_blank">
+                        <img class="project-img" src="./technical-documentation-page.png" alt="technical-documentation-page" />
+                        <div class="project-wrapper">
+                            <h3>Technical Documentation Page</h3>
+                        </div>
+                    </a>
+                </section>
+
+                <section class="project-tile">
+                    <a href="#" target="_blank">
+                        <img class="project-img" src="./product-landing-page.png" alt="product-landing-page" />
+                        <div class="project-wrapper">
+                            <h3>Product Landing Page</h3>
+                        </div>
+                    </a>
+                </section>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <h2>Let's Work Together</h2>
+            <div class="contact-methods">
+                <a class="contact-link" href="#" target="_blank">
+                    <i class="fa-solid fa-envelope"></i>
+                    <p>Email</p>
+                </a>
+
+                <a class="contact-link" href="#" target="_blank">
+                    <i class="fa-brands fa-linkedin"></i>
+                    <p>LinkedIn</p>
+                </a>
+
+                <a id="profile-link" class="contact-link" href="#" target="_blank">
+                    <i class="fa-brands fa-github"></i>
+                    <p>Github</p>
+                </a>
+            </div>
+        </section>
+    </main>
+    <footer class="section">
+        <p class="copyright">Copyright 2024. All Rights Reserved</p>
+    </footer>
+</body>
+</html>
